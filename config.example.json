@@ -1,0 +1,19 @@
+{
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "use_tls": true,
+    "use_ssl": false,
+    "username": "your-address@gmail.com",
+    "password": "your-app-password-here"
+  },
+  "sender_email": "your-address@gmail.com",
+  "recipients": [
+    "partner1@example.com",
+    "partner2@example.com",
+    "customer@example.com"
+  ],
+  "subject": "⚠️ Weekly System Update Alert",
+  "send_day": "monday",
+  "send_time": "09:00"
+}
